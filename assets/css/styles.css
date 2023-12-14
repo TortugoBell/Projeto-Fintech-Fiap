@@ -1,0 +1,152 @@
+body,html {
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.top-rectangle {
+    background-color: #23CECD;
+    height: 150px;
+    width: 100% !important;
+}
+
+.user-icon {
+    margin-top: -50px;
+}
+
+.text-boxes {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.custom-btn {
+    background-color: #D1E8FF;
+    width: 250px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    -webkit-text-fill-color: #2E3E5C;
+}
+.custom-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .custom-button {
+        flex-direction: row;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+#modalNovoUsuario {
+    border-radius: 30px;
+}
+
+#modalNovoUsuario .modal-content {
+    border-radius: 30px;
+}
+
+#modalNovoUsuario .modal-header {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#modalNovoUsuario .modal-body {
+    padding: 20px;
+}
+
+#modalNovoUsuario .modal-footer {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#modalNovoUsuario .modal-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#modalNovoUsuario .modal-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: light;
+    font-size: 17px;
+}
+
+#modalNovoUsuario .form-label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-weight: black;
+    font-size: 15px;
+}
+
+#modalNovoUsuario .form-control {
+    margin-bottom: 15px;
+}
+
+#btn-continuar {
+    background-color: #F0694D;
+    color: white;
+    border-radius: 12px;
+    width: 100%;
+}
+
+#modalUsuarioExistente {
+    border-radius: 30px;
+}
+
+#modalUsuarioExistente .modal-content {
+    border-radius: 30px;
+}
+
+#modalUsuarioExistente .modal-header {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#modalUsuarioExistente .modal-body {
+    padding: 20px;
+}
+
+#modalUsuarioExistente .modal-footer {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#modalUsuarioExistente .modal-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#modalUsuarioExistente .modal-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: light;
+    font-size: 17px;
+}
+
+#modalUsuarioExistente .form-label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: black;
+    font-size: 15px;
+}
+
+#modalUsuarioExistente .form-control {
+    margin-bottom: 15px;
+}
+
+#modalUsuarioExistente .forgot-password-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #388AF0;
+    text-decoration: none;
+}
+
+#modalUsuarioExistente .btn-continuar {
+    background-color: #F0694D;
+    color: white;
+    border-radius: 12px;
+    width: 100%;
+}
